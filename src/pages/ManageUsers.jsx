@@ -12,7 +12,7 @@ import { CiSearch } from "react-icons/ci";
 import { IoPersonCircleOutline } from "react-icons/io5";
 import { FiLoader, FiTrash2 } from "react-icons/fi";
 import toast from "react-hot-toast";
-import {supabase} from "../lib/supabase.js ";
+import { supabase } from "../lib/supabase.js ";
 
 export const ManageUsers = () => {
   const { theme } = useTheme();
@@ -102,7 +102,7 @@ export const ManageUsers = () => {
         targetUserId: userToDelete.id,
       });
       await deleteUser(userToDelete.id);
-      setVisitors((prev) => prev.filter((u) => u.id !== userToDelete.id));
+      setUsers((prev) => prev.filter((u) => u.id !== userToDelete.id));
       toast.success("User deleted.");
     } catch (error) {
       console.error(error.message);
