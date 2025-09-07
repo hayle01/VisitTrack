@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { FiPlay } from "react-icons/fi";
 import { useTheme } from "../Context/ThemeContext";
 import { Link, useNavigate } from "react-router";
-import Dashboard from "../assets/dashboard.png";
+import Dashboard from "../assets/Dashboard.png";
 import { CiPlay1 } from "react-icons/ci";
 
 export const Home = () => {
@@ -17,7 +16,7 @@ export const Home = () => {
       window.matchMedia("(prefers-color-scheme: dark)").matches);
 
   useEffect(() => {
-    document.documentElement.style.scrollBehavior = "smooth"; // Enables smooth scroll
+    document.documentElement.style.scrollBehavior = "smooth";
   }, []);
 
   return (
