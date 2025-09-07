@@ -5,28 +5,19 @@ import React, {
   useOptimistic,
 } from "react";
 import {
-  FiEye,
-  FiTrash2,
-  FiLoader,
   FiAlertTriangle,
-  FiPlus,
-  FiX,
 } from "react-icons/fi";
 import {
   deleteVisitor,
-  getCurrentUserRole,
   getVisitorsByPage,
 } from "../lib/visitors";
 import toast from "react-hot-toast";
 import { useAuth } from "../Context/authContext";
 import { FormModal } from "../components/FormModal";
 import Pagination from "../components/Pagination";
-import FiltersDropdown from "../components/Visitors/FilterDropdown";
-import { TbEdit } from "react-icons/tb";
 import { useTheme } from "../Context/ThemeContext";
 import { FaBan } from "react-icons/fa";
 import { Loading } from "../components/Loading";
-import { CiSearch } from "react-icons/ci";
 import VisitorsTable from "../components/Visitors/VisitorsTable";
 import VisitorsViewModal from "../components/Visitors/VisitorsViewModal";
 import DeleteVisitorModal from "../components/Visitors/DeleteVisitorModal";

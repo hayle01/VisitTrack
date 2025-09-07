@@ -5,7 +5,6 @@ import { IoCheckmarkDoneCircleOutline } from "react-icons/io5";
 import { createVisitor } from "../lib/visitors";
 import toast from "react-hot-toast";
 import { Link, useNavigate } from "react-router";
-import { Test } from "./test";
 
 const districts = [
   "Abdiaziz", "Bondhere", "Daynile", "Dharkenley", "Hamar Jajab", "Hamar Weyne",
