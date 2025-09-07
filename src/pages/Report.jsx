@@ -1,5 +1,4 @@
 import { GrVmMaintenance } from 'react-icons/gr'
-import ComingSoon from '../components/ComingSoon'
 
 export const Report = () => {
   return (
