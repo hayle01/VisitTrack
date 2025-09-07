@@ -17,7 +17,7 @@ import { Overview } from "./pages/Overview";
 import { ThemeProvider } from "./Context/ThemeContext";
 import NotFound from "./components/NotFound";
 import { Report } from "./pages/Report";
-import {supabase} from "./lib/supabase.js";
+import {supabase} from "./lib/Supabase.js";
 import { Profile } from "./pages/Profile";
 import { Home } from "./pages/Home";
 import { MainLayout } from "./components/MainLayout";
