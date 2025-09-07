@@ -1,6 +1,4 @@
 // App.jsx
-
-import React from "react";
 import { AuthContextProvider } from "./Context/authContext";
 
 import { Route, Routes } from "react-router";
@@ -17,7 +15,7 @@ import { Overview } from "./pages/Overview";
 import { ThemeProvider } from "./Context/ThemeContext";
 import NotFound from "./components/NotFound";
 import { Report } from "./pages/Report";
-import {supabase} from "./lib/Supabase.js";
+import {supabase} from "./lib/supabase.js";
 import { Profile } from "./pages/Profile";
 import { Home } from "./pages/Home";
 import { MainLayout } from "./components/MainLayout";
