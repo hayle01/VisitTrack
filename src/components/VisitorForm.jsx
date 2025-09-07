@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "../assets/logo.jpg";
 import { MdOutlineAnnouncement } from "react-icons/md";
 import { IoCheckmarkDoneCircleOutline } from "react-icons/io5";

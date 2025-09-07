@@ -1,4 +1,3 @@
-import React from "react";
 import { VisitorTrendsChart } from "../components/VisitorsTrendChart";
 import { GenderDonutChart } from "../components/GenderDonutChart";
 import { Top5AddressesChart } from "../components/Top5AddressesChart ";

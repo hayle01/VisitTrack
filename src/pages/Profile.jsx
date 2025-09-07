@@ -1,11 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import {
   FiCamera,
-  FiMail,
   FiUser,
-  FiPhone,
-  FiMapPin,
-  FiCalendar,
   FiEdit2,
   FiSave,
 } from "react-icons/fi";

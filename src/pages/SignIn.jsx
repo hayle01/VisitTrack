@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router";
-import { getUserProfile, signIn } from "../lib/auth";
-import supabase from "../lib/supabase";
+import { signIn } from "../lib/auth";
 
 export const SignIn = () => {
   const [email, setEmail] = useState("");

@@ -1,4 +1,4 @@
-import supabase from "./supabase";
+import {supabase} from "./supabase.js";
 
 // Get all users (excluding deleted and hiding super_admins from non-super_admins)
 export const fetchUsers = async () => {

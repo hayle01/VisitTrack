@@ -1,6 +1,5 @@
 // App.jsx
 import { AuthContextProvider } from "./Context/authContext";
-
 import { Route, Routes } from "react-router";
 import { VisitorForm } from "./components/VisitorForm";
 import { UnauthenticatedRoute } from "./components/UnauthenticatedRoute";

@@ -1,5 +1,5 @@
 import dayjs from "dayjs";
-import supabase from "./supabase";
+import {supabase} from "./supabase.js";
 
 export const createVisitor = async (visitor) => {
   let user_id = null;
