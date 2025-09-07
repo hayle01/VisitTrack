@@ -12,7 +12,7 @@ import { CiSearch } from "react-icons/ci";
 import { IoPersonCircleOutline } from "react-icons/io5";
 import { FiLoader, FiTrash2 } from "react-icons/fi";
 import toast from "react-hot-toast";
-import { supabase } from "../lib/supabase.js ";
+import { supabase } from "../lib/supabase";
 
 export const ManageUsers = () => {
   const { theme } = useTheme();
