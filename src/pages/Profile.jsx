@@ -7,7 +7,7 @@ import {
 } from "react-icons/fi";
 import toast from "react-hot-toast";
 import { getUserProfile } from "../lib/auth";
-import supabase from "../lib/supabase";
+import {supabase} from "../lib/supabase";
 import { useAuth } from "../Context/authContext";
 import { useTheme } from "../Context/ThemeContext";
 
