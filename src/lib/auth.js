@@ -1,6 +1,6 @@
 // Updated Supabase Auth functions for Visitor System
 
-import supabase from "./supabase";
+import {supabase} from "./supabase.js";
 
 // Admin access email to match upon login
 const superAdminEmail = "mabdirahim832@gmail.com";
